@@ -1,8 +1,23 @@
 version: 3
 
 groups:
-  chris:
-
-  jon:
+  chrisB:
+    reviewers:
+      teams:
+      - chris
+      
+    reviews:
+      request: 1
+      required: 1
+      
+  jonA:
+    reviewers:
+      teams:
+      - jon
+      
+    reviews:
+      request: 1
+      required: 1
+      
     conditions:
-    - "'chris' in groups.approved"
+    - "'chrisB' in groups.approved"
