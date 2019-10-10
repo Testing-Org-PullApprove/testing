@@ -10,6 +10,8 @@ groups:
     reviewers:
       teams:
       - jon
+      users:
+      - bdknox
 
     conditions:
     - "'chrisB' in groups.approved"
